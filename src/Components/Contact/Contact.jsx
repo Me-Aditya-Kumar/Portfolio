@@ -21,7 +21,7 @@ function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message);
+      alert("email sent successfully");
     }
   };
 
