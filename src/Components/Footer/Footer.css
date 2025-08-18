@@ -1,0 +1,11 @@
+.footer {
+  padding: 20px 10px 10px 10px;
+  background-color: #000000; 
+  color: white;
+  border-top: 2px solid red;
+}
+
+.footer-logo {
+    float: left;
+    margin-top: 10px;
+}

@@ -1,0 +1,75 @@
+.contact {
+  margin: 80px auto;
+}
+
+.contact-title h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.contact-left h1 {
+  font-size: 36px;
+  font-weight: 500;
+  background: linear-gradient(267deg, #d93434 0.36%, #8277ff 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #d8d8d8;
+  font-size: 20px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-right label {
+  color: #d8d8d8;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-right input,
+.contact-right textarea {
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  background: #32323c;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 20px;
+  font-family: Outfit, sans-serif;
+}
+
+.contact-right textarea {
+  resize: none;
+}
+
+.contact-submit {
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #d93434 0.36%, #8277ff 102.06%);
+  font-size: 20px;
+  padding: 15px 50px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.contact-submit:hover {
+  transform: scale(1.1);
+}

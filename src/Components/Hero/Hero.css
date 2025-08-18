@@ -1,0 +1,32 @@
+
+.hero-img {
+  max-height: 500px;
+  clip-path: circle(39% at 50% 33.5%);
+  margin-bottom: -100px;
+}
+
+.hero-connect {
+  background: linear-gradient(rgb(179, 16, 16));
+}
+
+.hero-connect:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+.hero-resume:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+.cv-btn {
+  border: 2px solid #a50010;
+  background: transparent;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.cv-btn:hover {
+  background: #a50010;
+  color: white;
+}

@@ -1,0 +1,18 @@
+.navbar{
+  background: black;
+}
+.navbar .nav-link.zoom-link {
+  color: white;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.navbar .nav-link.zoom-link:focus,
+.navbar .nav-link.zoom-link:active,
+.navbar .nav-link.zoom-link.active {
+  transform: scale(1.2);
+  color: rgb(179, 16, 16);
+}
+
+.connect{
+  background: linear-gradient(rgb(179, 16, 16));
+}

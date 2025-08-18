@@ -1,0 +1,73 @@
+.about-h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.about-img {
+  max-height: 520px;
+}
+
+.about-para {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.about-skill p {
+  min-width: 180px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.skill-bar {
+  border: none;
+  height: 10px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 0));
+}
+
+.about-achievement {
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+}
+
+.about-achievement h1 {
+  font-size: 36px;
+  font-weight: 500;
+  background-image: linear-gradient(to right, rgb(199, 0, 0), rgb(255, 55, 55),rgb(254, 87, 87), rgb(255, 255, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-achievement p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-skill:hover {
+  transform: scale(1.03);
+}
+
+.about-achievement:hover h1{
+  background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(254, 87, 87), rgb(255, 55, 55) , rgb(199, 0, 0));
+}
+
+.about-achievement:hover {
+  cursor:default;
+  transform: scale(1.1);
+}
