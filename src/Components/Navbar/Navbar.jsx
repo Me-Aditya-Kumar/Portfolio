@@ -70,7 +70,7 @@ const Navbar = () => {
                 Certifications
               </AnchorLink>
             </li>
-            <li className="nav-item d-none d-lg-block">
+            <li className="nav-item">
               <AnchorLink
                 offset={100}
                 href="#contact"

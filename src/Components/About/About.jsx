@@ -11,7 +11,7 @@ const About = () => {
 
       <div className="row align-items-center gy-5">
         <div className="col-lg-5 text-center">
-          <img src={profile_img} alt="Profile" className="about-img img-fluid rounded" />
+          <img src="https://placehold.co/400x600" alt="Profile" /*className="about-img img-fluid rounded"*/ />
         </div>
 
         <div className="col-lg-7">

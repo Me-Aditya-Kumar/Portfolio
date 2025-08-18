@@ -9,7 +9,7 @@
 .navbar .nav-link.zoom-link:focus,
 .navbar .nav-link.zoom-link:active,
 .navbar .nav-link.zoom-link.active {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: rgb(179, 16, 16);
 }
 

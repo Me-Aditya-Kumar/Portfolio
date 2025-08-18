@@ -22,12 +22,13 @@
 }
 
 .cert-overlay {
-  background: rgba(0, 0, 0, 0.81);
-  opacity: 0;
+  background: rgba(0, 0, 0, 0.638);
+  opacity: 1;
   transition: opacity 0.3s ease;
   border-radius: 0.5rem;
 }
 
-.cert-card:hover .cert-overlay {
-  opacity: 1;
+.cert-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }

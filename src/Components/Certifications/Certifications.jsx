@@ -31,6 +31,7 @@ function Certifications() {
             </a>
           </div>
         ))}
+        <h5 className="text-white text-center">Click to view</h5>
       </div>
     </div>
   );
