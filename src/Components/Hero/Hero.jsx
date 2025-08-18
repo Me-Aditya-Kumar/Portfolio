@@ -26,7 +26,7 @@ const Hero = () => {
       </p>
 
 
-      <div className="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-5">
+      <div className="d-flex justify-content-center flex-wrap gap-3 mt-4">
         <AnchorLink
           offset={50}
           href="#contact"
@@ -43,7 +43,7 @@ const Hero = () => {
         </a>
       </div>
 
-      <div className="d-flex justify-content-center flex-wrap gap-3 mt-4 mt-5 mb-5">
+      <div className="d-flex justify-content-center flex-wrap gap-3 mt-3 mb-5">
         <a target="_blank" href="https://www.linkedin.com/in/aditya-kumar-051973262"><img width="50" height="50" src="https://img.icons8.com/ios/50/b31010/linkedin.png" alt="linkedin"/></a>
         <a target="_blank" href="https://github.com/Me-Aditya-Kumar"><img width="50" height="50" src="https://img.icons8.com/ios/50/b31010/github.png" alt="github"/></a>
       </div>
