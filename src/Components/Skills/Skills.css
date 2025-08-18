@@ -8,6 +8,8 @@
 }
 
 .skills-title h1 {
+  display: inline;
+  border-bottom: 2px solid red; 
   font-size: 3rem;
   font-weight: 500;
 }

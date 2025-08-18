@@ -25,13 +25,14 @@ function Certifications() {
                 />
               </div>
               <div className="cert-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 rounded">
-                <h5 className="text-white fw-bold">{certificate.c_name}</h5>
-                <p className="text-white mb-0">{certificate.c_desc}</p>
+                <h4 className="text-white fw-bold">{certificate.c_name}</h4>
+                <p className="text-white">{certificate.c_desc}</p>
+                <h5 className="text-white text-center">Click to view</h5>
               </div>
             </a>
           </div>
         ))}
-        <h5 className="text-white text-center">Click to view</h5>
+        
       </div>
     </div>
   );

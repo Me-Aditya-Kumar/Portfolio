@@ -3,17 +3,15 @@
 }
 
 .contact-title h1 {
+  display: inline;
+  border-bottom: 2px solid red; 
   font-size: 60px;
   font-weight: 500;
 }
 
 .contact-left h1 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
-  background: linear-gradient(267deg, #d93434 0.36%, #8277ff 102.06%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .contact-details {
@@ -62,7 +60,7 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(267deg, #d93434 0.36%, #8277ff 102.06%);
+  background-image: linear-gradient(to right, rgb(152, 0, 0), rgb(153, 0, 0));
   font-size: 20px;
   padding: 15px 50px;
   margin-top: 15px;

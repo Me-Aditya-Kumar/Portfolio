@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className='footer text-center'>
         <div className="footer-top mb-3">
-            <img src={logo} alt="logo" className="footer-logo" />
+            <h2 className='mb-3'>Aditya Kumar</h2>
             <p>CSE Undergrad | Software Engineer | Full Stack Developer</p>
             <p>© 2025 Aditya Kumar. All rights reserved.</p>
         </div>

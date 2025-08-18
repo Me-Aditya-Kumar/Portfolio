@@ -4,6 +4,8 @@
 }
 
 .projects-title h1 {
+  display: inline;
+  border-bottom: 2px solid red; 
   font-size: 60px;
   font-weight: 500;
 }

@@ -1,4 +1,6 @@
 .about-h1 {
+  display: inline;
+  border-bottom: 2px solid red; 
   font-size: 70px;
   font-weight: 500;
 }
@@ -10,34 +12,13 @@
 .about-para {
   font-size: 20px;
   line-height: 1.8;
+  text-align: center;
 }
 
-.about-skills {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.about-skill {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: 0.2s;
-}
-
-.about-skill p {
-  min-width: 180px;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.skill-bar {
-  border: none;
-  height: 10px;
-  border-radius: 50px;
-  border: 1px solid white;
-  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 0));
+.about-skills p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .about-achievement {

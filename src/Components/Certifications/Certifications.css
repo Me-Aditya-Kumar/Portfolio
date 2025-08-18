@@ -6,6 +6,8 @@
 }
 
 .cert-h1{
+  display: inline;
+  border-bottom: 2px solid red; 
   font-size: 60px;
   font-weight: 500;
 }
@@ -26,6 +28,11 @@
   opacity: 1;
   transition: opacity 0.3s ease;
   border-radius: 0.5rem;
+}
+
+.cert-overlay h5{
+  position: absolute;
+  top: 10px;
 }
 
 .cert-card:hover {

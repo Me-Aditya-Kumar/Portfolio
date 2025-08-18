@@ -4,53 +4,87 @@ import profile_img from "../../assets/profile_img.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="container py-3" >
-      <div className="text-center mb-4">
+    <section id="about" className="container py-3">
+      <div className="text-center mb-5">
         <h1 className="about-h1">About Me</h1>
       </div>
 
       <div className="row align-items-center gy-5">
         <div className="col-lg-5 text-center">
-          <img src="https://placehold.co/400x600" alt="Profile" /*className="about-img img-fluid rounded"*/ />
+          <img
+            src={profile_img}
+            alt="Profile"
+            className="about-img img-fluid rounded"
+          />
         </div>
 
         <div className="col-lg-7">
           <div className="about-para mb-3">
             <p>
               I’m Aditya Kumar, a B.Tech CSE student passionate about building
-              reliable, user-focused software. I work with Java, Python, and web
-              technologies (PHP, MySQL, HTML, CSS, JavaScript/Bootstrap),
-              applying them across internships and academic projects to ship
-              practical solutions. I’m looking to join a tech-driven team as a
-              software engineer where I can contribute from day one, keep
-              learning modern tools, and deliver meaningful impact.
+              reliable, user-focused software. I work with Java, Python and web
+              technologies,applying them across internships and academic
+              projects to ship practical solutions. I’m looking to join a
+              tech-driven team as a software engineer where I can contribute
+              from day one, keep learning modern tools, and deliver meaningful
+              impact.
             </p>
           </div>
 
-          <div className="about-skills">
-            <div className="about-skill">
+          <div className="about-skills ">
+            <div className="mb-2">
               <p>HTML, CSS & Bootstrap</p>
-              <hr className="skill-bar" style={{width:"90%"}} />
+              <div className="progress border border-danger rounded">
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "90%" }}
+                ></div>
+              </div>
             </div>
-            <div className="about-skill ">
+            <div className="mb-2">
               <p>React JS</p>
-              <hr className="skill-bar " style={{width:"70%"}} />
+              <div className="progress border border-danger rounded">
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "70%" }}
+                ></div>
+              </div>
             </div>
-            <div className="about-skill">
+            <div className="mb-2">
               <p>Java</p>
-              <hr className="skill-bar" style={{width:"75%"}} />
+              <div className="progress border border-danger rounded">
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "75%" }}
+                ></div>
+              </div>
             </div>
-            <div className="about-skill">
+            <div className="mb-2">
               <p>Python</p>
-              <hr className="skill-bar" style={{width:"65%"}} />
+              <div className="progress border border-danger rounded">
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "65%" }}
+                ></div>
+              </div>
             </div>
-            <div className="about-skill">
+            <div className="mb-2">
               <p>C++</p>
-              <hr className="skill-bar" style={{width:"60%"}} />
+              <div className="progress border border-danger rounded">
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "60%" }}
+                ></div>
+              </div>
             </div>
-            <div className="about-skill">
+            <div className="mb-2">
               <p>MySQL</p>
-              <hr className="skill-bar" style={{width:"70%"}} />
+              <div className="progress border border-danger rounded">
+                <div
+                  className="progress-bar bg-danger"
+                  style={{ width: "70%" }}
+                ></div>
+              </div>
             </div>
           </div>
         </div>
