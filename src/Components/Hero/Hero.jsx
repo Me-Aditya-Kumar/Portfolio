@@ -35,7 +35,7 @@ const Hero = () => {
           Get in touch
         </AnchorLink>
 
-        <a target=""
+        <a target="_blank"
           href={cvFile}
           className="btn btn-lg rounded-pill border border-light text-white hero-resume"
         >
